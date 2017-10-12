@@ -1,0 +1,8 @@
+<h1>pdf2</h1>
+<p>pdfsrc---{{pdfsrc}}</p>
+
+<iframe src="{{blobsrc}}"></iframe>
+{{js-pdf src=pdfsrc}}
+<button {{action 'showpdf'}} >Show</button>
+
+{{yield}}
