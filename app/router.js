@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('pdfviewer');
+  this.route('filesave');
 });
 
 export default Router;
