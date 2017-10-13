@@ -1,0 +1,9 @@
+
+
+<iframe src="{{blobsrc}}"></iframe>
+{{js-pdf src=blobsrc}}
+<button {{action 'showpdf'}} >Show</button>
+{{!--<button {{action 'downloadzip'}} >Download</button>--}}
+
+<a href={{zipsrc}}>Download</a>
+{{yield}}
